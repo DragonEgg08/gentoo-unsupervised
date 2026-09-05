@@ -28,4 +28,6 @@ Roxanne: **Draft T5 prompt** (`subagents/prompts/T5_*.md`, InstallationPipeline:
 - LVM+MBR fstab contract: `/boot vfat` vs. xfs boot partition = inconsistency in T2 contract → sort out in LVM phase (T3+).
 - T3 design (2026-09-01): SHA256 = parse SUMS line + `sha256sum <file>` + hex compare (**documented divergence** from Handbook literal `--check` → CWD-independent) · GPG key path = default arg (production = Handbook path, tests = test key) · Guard: extraction strictly guarded after GPG+SHA256 for the exact same file.
 
+
+
 -> translated from german by AI
